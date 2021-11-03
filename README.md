@@ -10,6 +10,8 @@ High Definition (HD) maps provide highly accurate details of the surrounding env
 
 ![alt text](https://github.com/NeurAI-Lab/D-SSCD/blob/main/images/DSSL_1.png)
 
+For more details, please see the [Paper]() and [Presentation]().
+
 ## Requirements
 
 - python 3.6+
