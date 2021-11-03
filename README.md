@@ -76,11 +76,14 @@ Start evaluating with DR-TANet on 'PCD' dataset.
   
 ## Robustness Evaluation under Natural corruptions
 
-install dependencies for this official repo:  [{Benchmarking Neural Network Robustness to Common Corruptions and Perturbations}](https://github.com/hendrycks/robustness/tree/master/ImageNet-C/imagenet_c)  
+Install dependencies for this official repo:  [{Benchmarking Neural Network Robustness to Common Corruptions and Perturbations}](https://github.com/hendrycks/robustness/tree/master/ImageNet-C/imagenet_c)  
 
-We evaluate our pretraining on corrupted VL-CMU-CD test dataset. our model is subjected to 15 types of natural corruption spanning across 4 categories (blur,noise,weather,digital) with 5 severity levels.
+We evaluate our pretraining methods on corrupted VL-CMU-CD test dataset. our model is subjected to 15 types of natural corruption spanning across 4 categories (blur, noise, weather, digital) with 5 severity levels.
 
 - To generate the corrupted VL-CMU-CD data, use the script "generate_corrupted_testdata.py"
+![alt text](https://github.com/NeurAI-Lab/D-SSCD/blob/main/images/DSSL_1.png)
+
+
 - For evaluation of DR-TANet on corrupted test set:
 ```	
 python3 DSSCD/DR-TANet/eval_natural_corrup_vlcmucd.py --dataset vl_cmu_cd --datadir /path_to_dataset --checkpointdir /path_to_check_point_directory --resultdir /path_to_save_eval_result --encoder-arch resnet18 --drtam --refinement --store-imgs
