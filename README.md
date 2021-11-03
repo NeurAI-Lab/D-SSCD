@@ -1,6 +1,6 @@
 # Self-supervised pretraining for Scene Change Detection
 
-This is the official code for NeurIPS 2021 Machine Learning for Autonomous Driving Workshop Paper, "Self-supervised pretraining for scene change detection" by Vijaya Raghavan Thiruvengadathan Ramkumar, Prashant Bhat, Elahe Arani and Bahram Zonooz, where we propose an new self-supervised pretraining method based on differenceing called D-SSCD for scene change detection
+This is the official code for NeurIPS 2021 Machine Learning for Autonomous Driving Workshop Paper, "Self-supervised pretraining for scene change detection" by Vijaya Raghavan Thiruvengadathan Ramkumar, Prashant Bhat, Elahe Arani and Bahram Zonooz, where we propose an new self-supervised pretraining method based on differenceing called D-SSCD for scene change detection.
 
 
 ## Abstract
@@ -8,6 +8,9 @@ This is the official code for NeurIPS 2021 Machine Learning for Autonomous Drivi
 
 High Definition (HD) maps provide highly accurate details of the surrounding environment that aids in the precise localization of autonomous vehicles. To provide the most recent information, these HD maps must remain up-to-date with the changes present in the real world. Scene Change Detection (SCD) is a critical perception task that helps keep these maps updated by identifying the changes of the scene captured at different time instances. Deep Neural Network (DNNs) based SCD methods hinge on the availability of large-scale labeled images that are expensive to obtain. Therefore, current SCD methods depend heavily on transfer learning from large ImageNet datasets. However, they induce domain shift which results in a drop in change detection performance. To address these challenges, we propose a novel self-supervised pretraining method for the SCD called D-SSCD that learns temporal-consistent representations between the pair of images. The D-SSCD uses absolute feature differencing to learn distinctive representations belonging to the changed region directly from unlabeled pairs of images. Our experimental results on the VL-CMU-CD and Panoramic change detection datasets demonstrate the effectiveness of the proposed method. Compared to the widely used ImageNet pretraining strategy that uses more than a million additional labeled images, D-SSCD can match or surpass it without using any additional data. Our results also demonstrate the robustness of D-SSCD to natural corruptions, out-of-distribution generalization, and its superior performance in limited label scenarios.
 
+## Methodology
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## Requirements
 
