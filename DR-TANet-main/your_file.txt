@@ -1,0 +1,3 @@
+Image_T0/151/1_04.png Image_T1/151/2_04.png gt_fold/151/gt04.png
+Image_T0/151/1_04.png Image_T1/151/2_04.png gt_fold/151/gt04.png
+Image_T0/151/1_04.png Image_T1/151/2_04.png gt_fold/151/gt04.png
