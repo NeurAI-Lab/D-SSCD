@@ -81,7 +81,7 @@ Install dependencies for this official repo:  [{Benchmarking Neural Network Robu
 We evaluate our pretraining methods on corrupted VL-CMU-CD test dataset. our model is subjected to 15 types of natural corruption spanning across 4 categories (blur, noise, weather, digital) with 5 severity levels.
 
 - To generate the corrupted VL-CMU-CD data, use the script "generate_corrupted_testdata.py"
-![alt text](https://github.com/NeurAI-Lab/D-SSCD/blob/main/images/DSSL_1.png)
+![alt text](https://github.com/NeurAI-Lab/D-SSCD/blob/main/images/2021-10-27_17h53_21.png)
 
 
 - For evaluation of DR-TANet on corrupted test set:
