@@ -1,6 +1,6 @@
 # Self-supervised pretraining for Scene Change Detection
 
-This is the official code for NeurIPS 2021 Machine Learning for Autonomous Driving Workshop Paper, "Self-supervised pretraining for scene change detection" by Vijaya Raghavan Thiruvengadathan Ramkumar, Prashant Bhat, Elahe Arani and Bahram Zonooz, where we propose a novel self-supervised pretraining architechture based on differenceing called D-SSCD for scene change detection.
+**This is the official code for NeurIPS 2021 Machine Learning for Autonomous Driving Workshop Paper, "Self-supervised pretraining for scene change detection" by Vijaya Raghavan Thiruvengadathan Ramkumar, Prashant Bhat, Elahe Arani and Bahram Zonooz, where we propose a novel self-supervised pretraining architechture based on differenceing called D-SSCD for scene change detection.
 
 
 ## Abstract
