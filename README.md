@@ -109,4 +109,5 @@ Use the same train and eval script provided inside "DSSCD/DR-TANet/".
 ```	
 python3 train.py --dataset vl_cmu_cd --data_num 0.1 --datadir /path_to_dataset --checkpointdir /path_to_check_point_directory --max-epochs 150 --batch-size 16 --encoder-arch resnet50 --epoch-save 25 --drtam --refinement 
 ```
-	
+
+## Cite our work
