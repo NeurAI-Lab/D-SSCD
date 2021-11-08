@@ -77,7 +77,8 @@ Start evaluating with DR-TANet on 'PCD' dataset.
     python3 eval.py --dataset pcd --datadir /path_to_dataset --checkpointdir /path_to_check_point_directory --resultdir /path_to_save_eval_result --encoder-arch resnet18 --drtam --refinement --store-imgs
     
 ## Analysis
-We analyse our D-SSCD model under 3 scenarios: 1. Robustness to Natural corruptions 2. Out-of-distribution data 3. Limited labeled data. For more details, please see the [Paper](). We provede the model checkpoints for these analyses for the ease of comparison below:
+We analyse our D-SSCD model under 3 scenarios: **1. Robustness to Natural corruptions 2. Out-of-distribution data 3. Limited labeled data. For more details, please see the [Paper]().** For the ease of comparison, we have provided the model checkpoints for these analyses below:
+
 ### Model Checkpoints
 
 
