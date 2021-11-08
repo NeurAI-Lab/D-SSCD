@@ -75,41 +75,12 @@ Start evaluating with DR-TANet on 'PCD' dataset.
 Start evaluating with DR-TANet on 'PCD' dataset.
 
     python3 eval.py --dataset pcd --datadir /path_to_dataset --checkpointdir /path_to_check_point_directory --resultdir /path_to_save_eval_result --encoder-arch resnet18 --drtam --refinement --store-imgs
-  
-## Robustness Evaluation under Natural corruptions
-
-Install dependencies for this official repo:  [{Benchmarking Neural Network Robustness to Common Corruptions and Perturbations}](https://github.com/hendrycks/robustness/tree/master/ImageNet-C/imagenet_c)  
-
-We evaluate our pretraining methods on corrupted VL-CMU-CD test dataset. our model is subjected to 15 types of natural corruption spanning across 4 categories (blur, noise, weather, digital) with 5 severity levels.
-
-- To generate the corrupted VL-CMU-CD data, use the script "generate_corrupted_testdata.py"
-![alt text](https://github.com/NeurAI-Lab/D-SSCD/blob/main/images/2021-10-27_17h53_21.png)
+    
+## Analysis
+We analyse our D-SSCD model under 3 scenarios: 1. Robustness to Natural corruptions 2. Out-of-distribution data 3. Limited labeled data. For more details, please see the [Paper](). We provede the model checkpoints for these analyses for the ease of comparison below:
+### Model Checkpoints
 
 
-- For evaluation of DR-TANet on corrupted test set:
-```	
-python3 DSSCD/DR-TANet/eval_natural_corrup_vlcmucd.py --dataset vl_cmu_cd --datadir /path_to_dataset --checkpointdir /path_to_check_point_directory --resultdir /path_to_save_eval_result --encoder-arch resnet18 --drtam --refinement --store-imgs
- ```
-  
-## Evaluation on out of distribution data (OOD) 
 
-Use the same evaluation script by swaping the --dataset name during training and evaluation.
-	
-- Train in VL-CMU-CD and evaluate in PCD as OOD
-```	
---dataset vl_cmu_cd     --dataset pcd
-```
-- Train in PCD and evaluate in VL-CMU-CD as OOD
-```
---dataset pcd          --dataset vl_cmu_cd
-```
-## Evaluation on limited labels
-
-Use the same train and eval script provided inside "DSSCD/DR-TANet/".
-
-- To finetune the model with different amount of labeled data: change the --data_num args to vary the training data quantity.
-```	
-python3 train.py --dataset vl_cmu_cd --data_num 0.1 --datadir /path_to_dataset --checkpointdir /path_to_check_point_directory --max-epochs 150 --batch-size 16 --encoder-arch resnet50 --epoch-save 25 --drtam --refinement 
-```
 
 ## Cite our work
