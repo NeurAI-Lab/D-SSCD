@@ -85,3 +85,12 @@ We analyse our D-SSCD model under 3 scenarios: **1. Robustness to Natural corrup
 
 
 ## Cite our work
+
+If you find the code useful in your research, please consider citing our paper:
+
+<pre>
+@article{ramkumarself,
+  title={Self-Supervised Pretraining for Scene Change Detection},
+  author={Ramkumar, Vijaya Raghavan T and Bhat, Prashant and Arani, Elahe and Zonooz, Bahram}
+}
+</pre>
